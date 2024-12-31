@@ -78,20 +78,12 @@
 # print(var1)
 
 
-# Lambda Function // Ai ta List Comprehension same.
-# Lambda argument_list/parameter_list : expression
-# sum_lambda = lambda *args, **kwargs: (sum(args),kwargs)
-# print(sum_lambda(5,10, name= "selim", age=66))
+def number_sum(*args, **kwargs):
+    print(args,kwargs)
 
 
+number_sum(10,20,30,50,name="selim",age=20)
 
-
-
-# l = lambda *args,**kwargs: (sum(args),kwargs)
-# print(l(12,13,name="selim",age=89))
-
-# l = (lambda x : for i in range(5))
-# print(l())
 
 
 
