@@ -67,9 +67,52 @@
 #         k+=i
 # print(k)
 
+# 1
+# def two_sum(nums,target):
+#     for i in range(len(nums)):
+#         for j in range(i+1, len(nums)):
+#             print(i, i+1)
+#             print("=================")
+#             if nums[i] + nums[j] == target:
+#                 return [i,j]
+
+
+# nums = [3,2,4]
+# target=6
+# print(two_sum(nums, target))
 
 
 
 
+# 2 
+# def two_sum(nums,target):
+#     for i in range(len(nums)):
+#         second_num = target - nums[i] 
+#         if second_num in nums[i+1:]:
+#             return [i, nums.index(second_num)]
 
+# nums = [3, 3]
+# target=6
+# print(two_sum(nums, target))
+
+
+#3[Acceptaed]
+# class Solution:
+# def twoSum(nums, target):
+#     seen = {}
     
+#     for i in range(len(nums)):
+#         second_num = target - nums[i]
+#         if second_num in seen:
+#             return [i, seen[second_num]]
+#         seen[nums[i]] = i
+        
+# nums = [3,3]
+# target=6
+# print(two_sum(nums, target))
+
+# 1. first bujbo ki input dela ki output chacca
+# 2. first chinta korbo brout force deya solve korar.
+# 3. tarpor chinta korbo na hola onno way kojar.
+# 4. Brout force deya solve korla visulation ta clear hoba.
+# 5. data visualization korat hoba.

@@ -78,11 +78,7 @@
 # print(var1)
 
 
-def number_sum(*args, **kwargs):
-    print(args,kwargs)
 
-
-number_sum(10,20,30,50,name="selim",age=20)
 
 
 
