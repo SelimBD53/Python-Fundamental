@@ -99,8 +99,7 @@
 #3[Acceptaed]
 # class Solution:
 # def twoSum(nums, target):
-#     seen = {}
-    
+#     seen = {}  
 #     for i in range(len(nums)):
 #         second_num = target - nums[i]
 #         if second_num in seen:
