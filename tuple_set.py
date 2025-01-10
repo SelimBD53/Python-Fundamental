@@ -43,3 +43,63 @@
 # start = null = 0
 # end =null = len(list1)
 # step = null = 1
+
+
+
+# set ar moddha dublicate value raka jaba na. alwayes unique value raktha hoba.
+# set a order maintain kora na. unorder obostai thaka.
+# tuple hoccha emutable. mana tuple ka change korta parbo na.value assing or delete kora jai na.
+
+# tp = 10,2,3,4,45
+# tp =([12,23,45],[54,66])
+# tp[1]=55
+# tp[0][1]= 55
+# print(tp)
+
+
+
+
+
+#Dictonary
+
+# dt = {"bangla": 55, "english": 66, "math":65}
+# dt['ML'] = 85
+# dt['op'] = 88
+# dt_key = dt.keys()
+# dt_values = dt.values()
+# print(dt_key)
+# print(dt_values)
+# print(dt.pop("ML"))
+# dt.clear()
+# del dt["math"]
+# print(dt)
+# print(dt.items())
+
+
+
+# dt = {"bangla": 55, "english": 66, "math":65}
+# for mark in dt:
+#     val = dt[mark]
+#     print(mark, val)
+# for subjet, mark in dt.items():
+#     print(subjet, mark)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -78,6 +78,27 @@
 # print(var1)
 
 
+# Ki dhoronar data type return or data neba sai ta define kora function declare kora.
+
+# def add_sum(num1 : int, num2: int) -> int:
+#     return num1+num2
+
+
+
+#Generator:
+# def fib(limit):
+#     num1, num2 = 0, 1
+#     while num1<limit:
+#         yield num1
+#         num1, num2 = num2, num1+num2
+
+# gen = fib(8)
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+
+
 
 
 

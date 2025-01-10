@@ -115,3 +115,9 @@
 # 3. tarpor chinta korbo na hola onno way kojar.
 # 4. Brout force deya solve korla visulation ta clear hoba.
 # 5. data visualization korat hoba.
+# 6. Set ar modhha tuple raka jai but list raka jai na
+
+
+
+
+

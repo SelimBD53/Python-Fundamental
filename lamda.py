@@ -11,3 +11,5 @@
 
 # l = (lambda x : for i in range(5))
 # print(l())
+s = lambda x: x**2
+print(s(6))
