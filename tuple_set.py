@@ -86,10 +86,54 @@
 
 
 
+# Dictionary Comprehension
+# sample_dict = {
+#     "name": "Kelly",
+#     "age": 25,
+#     "salary": 8000,
+#     "city": "New york"}
+
+# Keys to extract
+# keys = ["name", "salary"]
+
+# for key, value in sample_dict.items():
+#     for i in keys:
+#         if i==key:
+#             print({i,value})
+            
+
+# d={i:value for key, value in sample_dict.items() for i in keys  if i==key}
+# print(d) 
 
 
+# list1 = ["M", "na", "i", "Bo"]
+# list2 = ["y", "me", "s", "nd"]
+# new_list=[]
+# for i in range(len(list1)):
+#     for j in range(len(list2)):
+#         if i==j:
+#             v=list1[i]+list2[j]
+#             new_list.append(v)
+# print(new_list)
 
 
+# list1 = [10, 20, 30, 40]
+# list2 = [100, 200, 300, 400]
+# l=list2[::-1]
+# x=zip(list1,l)
+# for i in x:
+#     print(i)
+
+# keys = ['Ten', 'Twenty', 'Thirty']
+# values = [10, 20, 30]
+# re = {}
+# for i in range(len(keys)):
+#     for j in range(len(values)):
+#         if i==j:
+#             re[keys[i]]=values[j]
+
+
+# print(re)
 
 
 

@@ -14,14 +14,7 @@
 # print(dog.speak())
  
  
-# Multiple Inheritance:
 
-class Animal:
-    def __init__(self,name):
-        self.name=name
-        
-    def speak(self):
-        pass                           # Base class do not provied specific implementation
 
 
 

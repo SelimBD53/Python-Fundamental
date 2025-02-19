@@ -62,13 +62,20 @@
 # print(dict1)
 
 
-tuple1 = ("apple", "bannana", "cherry")
-print(type(tuple1))
+# tuple1 = ("apple", "bannana", "cherry")
+# print(type(tuple1))
 # print(next(tuple1))
 
-tuple1 =(i for i in ("apple", "bannana", "cherry")) # onek boro data neya kaj kora hoy generator.
-print(type(tuple1))
-print(tuple1)
-print(next(tuple1))
+# tuple1 =(i for i in ("apple", "bannana", "cherry")) # onek boro data neya kaj kora hoy generator.
+# print(type(tuple1))
+# print(tuple1)
+# print(next(tuple1))
+
+
+# List comprehsion Structure:
+
+# [assing_value for item in iterable] structure
+
+
 
 

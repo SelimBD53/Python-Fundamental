@@ -85,7 +85,7 @@
 
 
 
-#Generator:
+#Generator:  [fibonnachis series problem ]
 # def fib(limit):
 #     num1, num2 = 0, 1
 #     while num1<limit:
@@ -99,7 +99,11 @@
 # print(next(gen))
 
 
+# def show_employee(name="anonymous", salary=90000):
+#     return f"The Employ name is {name} and this salary is {salary}"
 
+# info= show_employee()
+# print(info)    
 
 
 

@@ -35,3 +35,58 @@
 #        0 1 1 2 3 5 8
 #indx =  1 2 3 4 5 6 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import json
+import random
+
+def quiz_mode():
+    try:
+        with open("vocabulary.json", "r") as file:
+            vocabulary = json.load(file)
+    except FileNotFoundError:
+        print("Vocabulary file not found!")
+        return
+
+    if not vocabulary:
+        print("The vocabulary is empty!")
+        return
+
+    words = list(vocabulary.keys())
+    random.shuffle(words)
+    score = 0
+
+    for word in words:
+        # Randomly choose whether to ask using Meaning or Example
+        question_type = random.choice(["Meaning", "Example"])
+        question_text = vocabulary[word][question_type]
+
+        print(f"{question_type}: {question_text}")
+        answer = input("What's the word? ").strip()
+
+        if answer == word:
+            score += 1
+            print("Correct!")
+        else:
+            print(f"Wrong! The correct word was: {word}")
+
+    print(f"Your score: {score}/{len(words)}")
+
+Call the quiz mode function
+quiz_mode()
