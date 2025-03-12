@@ -62,33 +62,33 @@
 
 # 3: Online Shopping System
 
-class Product:
-    def __init__(self, name, price, stock):
-        self.name = name
-        self.price = price
-        self.stock = stock
-    def reduce_stock(self, quentity):
-        self.stock -= quentity
+# class Product:
+#     def __init__(self, name, price, stock):
+#         self.name = name
+#         self.price = price
+#         self.stock = stock
+#     def reduce_stock(self, quentity):
+#         self.stock -= quentity
         
-class Customer:
-    def __init__(self, name):
-        self.name = name
-        self.cart = []
-    def add_to_cart(self, product, quentity):
-        self.cart.append((product, quentity))
+# class Customer:
+#     def __init__(self, name):
+#         self.name = name
+#         self.cart = []
+#     def add_to_cart(self, product, quentity):
+#         self.cart.append((product, quentity))
         
-    def Checkout(self):
-        total_cost = 0
-        for product, quentity in self.cart:
-            total_cost += product.price * quentity
-            product.reduce_stock(quentity)
-        return f"Total Cost: ${total_cost}"
+#     def Checkout(self):
+#         total_cost = 0
+#         for product, quentity in self.cart:
+#             total_cost += product.price * quentity
+#             product.reduce_stock(quentity)
+#         return f"Total Cost: ${total_cost}"
             
-product_1 = Product("Laptop", 1000, 5)
-product_2 = Product("Phone", 500, 10)
-customer = Customer("Selim")
-customer.add_to_cart(product_1, 2)
-customer.add_to_cart(product_2, 1)
-print(customer.Checkout())
-print(product_1.stock)
-print(product_2.stock)
+# product_1 = Product("Laptop", 1000, 5)
+# product_2 = Product("Phone", 500, 10)
+# customer = Customer("Selim")
+# customer.add_to_cart(product_1, 2)
+# customer.add_to_cart(product_2, 1)
+# print(customer.Checkout())
+# print(product_1.stock)
+# print(product_2.stock)
